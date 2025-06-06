@@ -15,13 +15,13 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="FirstStep.cpp">
+    <ClCompile Include="FirstStepMain.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="CommentMain.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="namespaceMain.cpp">
+    <ClCompile Include="NamespaceMain.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
