@@ -10,7 +10,7 @@ void f()
 
 int main()
 {
-    cout << "NamedObj 클래스의 객체 수 : "
+    cout << "NamedObj 클래스의 객체 수 : " // 아직 아무 객체도 없는 상태
         << NamedObj::nObj() << endl; // 객체 생성 전이지만 static 멤버 함수이기 때문에 클래스 이름 이용해 호출 가능
     NamedObj a("First");  // 첫 번째 객체 생성
     NamedObj b("Second"); // 두 번째 객체 생성

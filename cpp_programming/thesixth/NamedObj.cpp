@@ -4,13 +4,13 @@
  
 NamedObj::NamedObj(const char* s) { // 생성자 정의
 	name = new char[strlen(s) + 1]; // 문자열을 복사할 공간을 할당
-	strcpy(name, s); // 문자열을 복사
+	strcpy(name, s); // name에 s 복사
 	id = ++nConste; // 생성된 객체의 수를 증가시키고 이를 ID로 부여함
 }
 
 NamedObj::~NamedObj() { // 소멸자 정의
 	++nDestr; // 소멸된 객체의 수를 증가시킴
-	delete[] name;
+	delete[] name; // 동적으로 할당한 메모리 해제
 }
 
 // static 데이터 멤버의 정의 및 초기화
