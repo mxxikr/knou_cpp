@@ -2,6 +2,7 @@
 #include "Complex1.h"
 using namespace std;
 
+// (a + bj) × (c + dj) = (ac - bd) + (ad + bc)j
 Complex1 Complex1::mul(const Complex1& c) const // 두 복소수의 곱을 반환
 {
     double r = rPart * c.rPart - iPart * c.iPart; // 실수 부분 계산
@@ -9,6 +10,7 @@ Complex1 Complex1::mul(const Complex1& c) const // 두 복소수의 곱을 반환
     return Complex1(r, i); // 새로운 Complex1 객체를 생성하여 반환
 }
 
+// (a + bj) ÷ (c + dj) = ((a + bj)(c - dj)) / (c^2 + d^2)
 Complex1 Complex1::div(const Complex1& c) const // 두 복소수의 나눗셈을 반환
 {
     double d = c.rPart * c.rPart + c.iPart * c.iPart; // 분모 계산 (c의 켤레 복소수의 제곱)
