@@ -4,14 +4,14 @@ using namespace std;
 
 int main() {
     Drvd1 d1;
-    // d1.a = 1; // ¿¡·¯(private ¸â¹ö)
-    // d1.b = 2; // ¿¡·¯(protected ¸â¹ö)
-    // d1.c = 3; // ¿¡·¯(protected ¸â¹ö) 
+     //d1.a = 1; // ¿¡·¯(private ¸â¹ö)
+     //d1.b = 2; // ¿¡·¯(protected ¸â¹ö)
+     d1.c = 3; // ¿¡·¯(protected ¸â¹ö) 
 
     d1.set(10, 20, 30); // °ª ¼³Á¤
     d1.printbc(); // b¿Í c Ãâ·Â
 
-    cout << "sum: " << d1.sum() << endl;
+    cout << ", sum: " << d1.sum() << endl;
 
     return 0;
 }
