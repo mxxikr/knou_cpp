@@ -23,6 +23,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "theninth", "theninth\thenin
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "thetenth", "thetenth\thetenth.vcxproj", "{743E2505-C8ED-4657-9901-569C2E99FE0D}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "theeleventh", "theeleventh\theeleventh.vcxproj", "{4A785D40-A122-4169-9DEE-76BAB7D1682E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -153,6 +155,18 @@ Global
 		{743E2505-C8ED-4657-9901-569C2E99FE0D}.Release|x64.Build.0 = Release|x64
 		{743E2505-C8ED-4657-9901-569C2E99FE0D}.Release|x86.ActiveCfg = Release|Win32
 		{743E2505-C8ED-4657-9901-569C2E99FE0D}.Release|x86.Build.0 = Release|Win32
+		{4A785D40-A122-4169-9DEE-76BAB7D1682E}.Debug|Any CPU.ActiveCfg = Debug|x64
+		{4A785D40-A122-4169-9DEE-76BAB7D1682E}.Debug|Any CPU.Build.0 = Debug|x64
+		{4A785D40-A122-4169-9DEE-76BAB7D1682E}.Debug|x64.ActiveCfg = Debug|x64
+		{4A785D40-A122-4169-9DEE-76BAB7D1682E}.Debug|x64.Build.0 = Debug|x64
+		{4A785D40-A122-4169-9DEE-76BAB7D1682E}.Debug|x86.ActiveCfg = Debug|Win32
+		{4A785D40-A122-4169-9DEE-76BAB7D1682E}.Debug|x86.Build.0 = Debug|Win32
+		{4A785D40-A122-4169-9DEE-76BAB7D1682E}.Release|Any CPU.ActiveCfg = Release|x64
+		{4A785D40-A122-4169-9DEE-76BAB7D1682E}.Release|Any CPU.Build.0 = Release|x64
+		{4A785D40-A122-4169-9DEE-76BAB7D1682E}.Release|x64.ActiveCfg = Release|x64
+		{4A785D40-A122-4169-9DEE-76BAB7D1682E}.Release|x64.Build.0 = Release|x64
+		{4A785D40-A122-4169-9DEE-76BAB7D1682E}.Release|x86.ActiveCfg = Release|Win32
+		{4A785D40-A122-4169-9DEE-76BAB7D1682E}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
