@@ -2,14 +2,14 @@
 #include "Drvd1.h"
 using namespace std;
 
-int main() {
+int main3() {
     Drvd1 d1;
-     //d1.a = 1; // 에러(private 멤버)
-     //d1.b = 2; // 에러(protected 멤버)
-	d1.c = 3; // OK(public 멤버)
+    //d1.a = 1; // 에러(private 멤버)
+    //d1.b = 2; // 에러(protected 멤버)
+	//d1.c = 3; // 에러(protected 멤버)
 
-    d1.set(10, 20, 30); // 값 설정
-    d1.printbc(); // b와 c 출력
+    //d1.set(10, 20, 30); // 값 설정 (protected)
+    d1.printbc(); // b와 c 출력 (public)
 
     cout << ", sum: " << d1.sum() << endl;
 

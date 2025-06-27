@@ -132,6 +132,11 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="BaseCMain.cpp" />
+    <ClCompile Include="ClassNameHidingMain.cpp" />
+    <ClCompile Include="ClassNameHidingUsingMain.cpp" />
+    <ClCompile Include="NameHidingBasicMain.cpp" />
+    <ClCompile Include="NameHidingLocalMain.cpp" />
+    <ClCompile Include="NameHidingStringMain.cpp" />
     <ClCompile Include="PS1Main.cpp" />
     <ClCompile Include="PS2Main.cpp" />
   </ItemGroup>
